@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+padding: 10px 0;
+}
+/* #header .left{
+    width: 20%;
+}
+#header .center{
+    width: 60%;
+}
+#header .right{
+    width: 20%;
+} */
+#header a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: #212121;
+}
+#header span{
+    color:pink;
+}
+#header select{
+    outline: none;
+    border-color: transparent;
+}
+#header .bottom{
+    padding: 10px 0;
+}
+#header .bottom img{
+    width:15%;
+    display: block;
+    margin-left: 20px;
+}
+#header .bottom a{
+    margin-left: 10px;
+}
+#header .bottom i{
+    margin-right: 30px;
+
+}
+#Slider{
+    background-image: url(https://wp.the4.co/kalles/wp-content/uploads/2021/07/slideshow_image.jpg);
+     background-size: cover;
+    background-position: center; 
+    padding: 10rem 0;
+    
+}
+#Slider h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+#Slider p{
+    
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: none;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+#Slider .text{
+    color:#fff;
+    
+}
+#Slider a{
+    text-decoration: none;
+    border:1px solid #fff;
+    padding: 10px 20px;
+    border-radius:20px ;
+    color: #fff;
+}
+#photos img{
+width: 100%;}
+#photos{
+    padding: 1rem 0;
+}
+#photos a{
+    position: absolute;
+    left:50%;
+    bottom:10%;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    transform: translateX(-50%);
+}
+#photos .box{
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+#photos .box:hover img{
+    transform: scale(1.2);
+}
+#photos .text-box{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    
+}
+#photos .text-box1{
+    position: absolute;
+    left:20%;
+    top:40%;
+}
+#photos .a1 a{
+    display: block;
+    margin-top: 20px;
+}
